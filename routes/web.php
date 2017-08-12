@@ -12,3 +12,7 @@
 */
 
 Route::get('/', 'Angular@serve');
+
+Route::get('api/check', function(){
+    return "API works";
+});
